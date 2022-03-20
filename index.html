@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Alunos</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:\Escola\Qualitativa\Códigos\CSS\MeuCSS.css" />
+    <link rel=icon type="imagem/png" href="D:\Escola\Qualitativa\Imagens\logo.png">
+</head>
+
+<body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <h5> Projeto PDT </h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\index.html">Ficha Biográfica<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">Composição Familiar<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">Saúde/Alimentação<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Rotina
+          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">Vida Escolar</a>
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">Atividades no tempo livre</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--Fim da barra de navegação-->
+    <br>
+
+    <center>
+        <h4>Dados do Aluno</h4>
+    </center> <br>
+    <!--Início da grid-->
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    Aluno(a): <input type="text" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="col-1">
+                    Nº: <input type="number" class="form-control" placeholder="Nº">
+                </div>
+                <div class="col-2">
+                    Ano/Série: <input type="number" class="form-control" placeholder="Série">
+                </div>
+                <div class="col-2">
+                    Turma: <input type="text" class="form-control" placeholder="Turma">
+                </div>
+                <div class="col-2">
+                    Ano Letivo: <input type="text" class="form-control" placeholder="Ano">
+                </div>
+            </div>
+            <br>
+            <!--Segunda linha -->
+            <div class="row">
+                <div class="col-3">
+                    Data de Nascimento: <input type="date" class="form-control" placeholder="Nascimento">
+                </div>
+                <div class="col-2">
+                    Naturalidade: <input type="text" class="form-control" placeholder="Naturalidade">
+                </div>
+                <div class="col-5">
+                    Endereço: <input type="text" class="form-control" placeholder="Bairro, Rua, Nº">
+                </div>
+                <div class="col-2">
+                    Município:
+
+                    <select name="municipio" class="form-control">
+          <option selected>Escolher...</option>
+          <option> Abaiara </option>
+          <option> Acarapé </option>
+          <option> Acaraú </option>
+          <option> Acopiara </option>
+          <option> Aiuaba </option>
+          <option> Alcântaras </option>
+          <option> Altaneira </option>
+          <option> Alto Santo </option>
+          <option> Amontada </option>
+          <option> Antonina do Norte </option>
+          <option> Apuiarés </option>
+          <option> Aquiraz </option>
+          <option> Aracati </option>
+          <option> Aracoiaba </option>
+          <option> Ararendá </option>
+          <option> Araripe </option>
+          <option> Aratuba </option>
+          <option> Arneiroz </option>
+          <option> Assaré </option>
+          <option> Aurora </option>
+          <option> Baixio </option>
+          <option> Banabuiú </option>
+          <option> Barbalha </option>
+          <option> Barreira </option>
+          <option> Barro </option>
+          <option> Barroquinha </option>
+          <option> Baturité </option>
+          <option> Beberibe </option>
+          <option> Bela Cruz </option>
+          <option> Boa Viagem </option>
+          <option> Brejo Santo </option>
+          <option> Camocim </option>
+          <option> Campos Sales </option>
+          <option> Canindé </option>
+          <option> Capistrano </option>
+          <option> Caridade </option>
+          <option> Cariré </option>
+          <option> Caririaçu </option>
+          <option> Cariús </option>
+          <option> Carnaubal </option>
+          <option> Cascavel </option>
+          <option> Catarina </option>
+          <option> Catunda </option>
+          <option> Caucaia </option>
+          <option> Cedro </option>
+          <option> Chaval </option>
+          <option> Choró </option>
+          <option> Chorozinho </option>
+          <option> Coreaú </option>
+          <option> Crateús </option>
+          <option> Crato </option>
+          <option> Croatá </option>
+          <option> Cruz </option>
+          <option> Deputado Irapuan Pinheiro </option>
+          <option> Ererê </option>
+          <option> Eusébio </option>
+          <option> Farias Brito </option>
+          <option> Forquilha </option>
+          <option> Fortaleza </option>
+          <option> Fortim </option>
+          <option> Frecheirinha </option>
+          <option> General Sampaio </option>
+          <option> Graça </option>
+          <option> Granja </option>
+          <option> Granjeiro </option>
+          <option> Groaíras </option>
+          <option> Guaiúba </option>
+          <option> Guaraciaba do Norte </option>
+          <option> Guaramiranga </option>
+          <option> Hidrolândia </option>
+          <option> Horizonte </option>
+          <option> Ibaretama </option>
+          <option> Ibiapina </option>
+          <option> Ibicuitinga </option>
+          <option> Icapuí </option>
+          <option> Icó </option>
+          <option> Iguatu </option>
+          <option> Independência </option>
+          <option> Ipaporanga </option>
+          <option> Ipaumirim </option>
+          <option> Ipu </option>
+          <option> Ipueiras </option>
+          <option> Iracema </option>
+          <option> Irauçuba </option>
+          <option> Itaiçaba </option>
+          <option> Itaitinga </option>
+          <option> Itapagé </option>
+          <option> Itapipoca </option>
+          <option> Itapiúna </option>
+          <option> Itarema </option>
+          <option> Itatira </option>
+          <option> Jaguaretama </option>
+          <option> Jaguaribara </option>
+          <option> Jaguaribe </option>
+          <option> Jaguaruana </option>
+          <option> Jardim </option>
+          <option> Jati </option>
+          <option> Jijoca de Jericoaroara </option>
+          <option> Juazeiro do Norte </option>
+          <option> Jucás </option>
+          <option> Lavras da Mangabeira </option>
+          <option> Limoeiro do Norte </option>
+          <option> Madalena </option>
+          <option> Maracanaú </option>
+          <option> Maranguape </option>
+          <option> Marco </option>
+          <option> Martinópole </option>
+          <option> Massapê </option>
+          <option> Mauriti </option>
+          <option> Meruoca </option>
+          <option> Milagres </option>
+          <option> Milhã </option>
+          <option> Miraíma </option>
+          <option> Missão Velha </option>
+          <option> Mombaça </option>
+          <option> Monsenhor Tabosa </option>
+          <option> Morada Nova </option>
+          <option> Moraújo </option>
+          <option> Morrinhos </option>
+          <option> Mucambo </option>
+          <option> Mulungu </option>
+          <option> Nova Olinda </option>
+          <option> Nova Russas </option>
+          <option> Novo Oriente </option>
+          <option> Ocara </option>
+          <option> Orós </option>
+          <option> Pacajus </option>
+          <option> Pacatuba </option>
+          <option> Pacoti </option>
+          <option> Pacujá </option>
+          <option> Palhano </option>
+          <option> Palmácia </option>
+          <option> Paracuru </option>
+          <option> Paraipaba </option>
+          <option> Parambu </option>
+          <option> Paramoti </option>
+          <option> Pedra Branca </option>
+          <option> Penaforte </option>
+          <option> Pentecoste </option>
+          <option> Pereiro </option>
+          <option> Pindoretama </option>
+          <option> Piquet Carneiro </option>
+          <option> Pires Ferreira </option>
+          <option> Poranga </option>
+          <option> Porteiras </option>
+          <option> Potengi </option>
+          <option> Potiretama </option>
+          <option> Quiterianópolis </option>
+          <option> Quixadá </option>
+          <option> Quixelô </option>
+          <option> Quixeramobim </option>
+          <option> Quixeré </option>
+          <option> Redenção </option>
+          <option> Reriutaba </option>
+          <option> Russas </option>
+          <option> Saboeiro </option>
+          <option> Salitre </option>
+          <option> Santa Quitéria </option>
+          <option> Santana do Acaraú </option>
+          <option> Santana do Cariri </option>
+          <option> São Benedito </option>
+          <option> São Gonçalo do Amarante </option>
+          <option> São João do Jaguaribe </option>
+          <option> São Luís do Curu </option>
+          <option> Senador Pompeu </option>
+          <option> Senador Sá </option>
+          <option> Sobral </option>
+          <option> Solonópole </option>
+          <option> Tabuleiro do Norte </option>
+          <option> Tamboril </option>
+          <option> Tarrafas </option>
+          <option> Tauá </option>
+          <option> Tejuçuoca </option>
+          <option> Tianguá </option>
+          <option> Trairi </option>
+          <option> Tururu </option>
+          <option> Ubajara </option>
+          <option> Umari </option>
+          <option> Umirim </option>
+          <option> Uruburetama </option>
+          <option> Uruoca </option>
+          <option> Varjota </option>
+          <option> Várzea Alegre </option>
+          <option> Viçosa do Ceará </option>
+        </select>
+                </div>
+            </div>
+            <br>
+            <!-- Terceira linha -->
+            <div class="row">
+                <div class="col">
+                    Telefone: <input type="text" class="form-control" placeholder="Telefone">
+                </div>
+                <div class="col">
+                    CEP: <input type="text" class="form-control" placeholder="CEP">
+                </div>
+            </div>
+        </div>
+    </form>
+    <!--Fim da grid-->
+    <br> <br>
+
+    <center>
+        <h4>Dados do Responsável</h4>
+    </center> <br>
+    <!--Início da grid-->
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Nome do Responsável: <input type="text" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="col">
+                    Parentesco: <input type="text" class="form-control" placeholder="Parentesco">
+                </div>
+            </div>
+            <br>
+            <!--Segunda linha -->
+            <div class="row">
+                <div class="col">
+                    Endereço: <input type="text" class="form-control" placeholder="Bairro, Rua, Nº">
+                </div>
+                <div class="col">
+                    Telefone (Residência): <input type="text" class="form-control" placeholder="Telefone">
+                </div>
+            </div>
+            <br>
+            <!-- Terceira linha -->
+            <div class="row">
+                <div class="col">
+                    Município:
+
+                    <select name="municipio" class="form-control">
+          <option selected>Escolher...</option>
+          <option> Abaiara </option>
+          <option> Acarapé </option>
+          <option> Acaraú </option>
+          <option> Acopiara </option>
+          <option> Aiuaba </option>
+          <option> Alcântaras </option>
+          <option> Altaneira </option>
+          <option> Alto Santo </option>
+          <option> Amontada </option>
+          <option> Antonina do Norte </option>
+          <option> Apuiarés </option>
+          <option> Aquiraz </option>
+          <option> Aracati </option>
+          <option> Aracoiaba </option>
+          <option> Ararendá </option>
+          <option> Araripe </option>
+          <option> Aratuba </option>
+          <option> Arneiroz </option>
+          <option> Assaré </option>
+          <option> Aurora </option>
+          <option> Baixio </option>
+          <option> Banabuiú </option>
+          <option> Barbalha </option>
+          <option> Barreira </option>
+          <option> Barro </option>
+          <option> Barroquinha </option>
+          <option> Baturité </option>
+          <option> Beberibe </option>
+          <option> Bela Cruz </option>
+          <option> Boa Viagem </option>
+          <option> Brejo Santo </option>
+          <option> Camocim </option>
+          <option> Campos Sales </option>
+          <option> Canindé </option>
+          <option> Capistrano </option>
+          <option> Caridade </option>
+          <option> Cariré </option>
+          <option> Caririaçu </option>
+          <option> Cariús </option>
+          <option> Carnaubal </option>
+          <option> Cascavel </option>
+          <option> Catarina </option>
+          <option> Catunda </option>
+          <option> Caucaia </option>
+          <option> Cedro </option>
+          <option> Chaval </option>
+          <option> Choró </option>
+          <option> Chorozinho </option>
+          <option> Coreaú </option>
+          <option> Crateús </option>
+          <option> Crato </option>
+          <option> Croatá </option>
+          <option> Cruz </option>
+          <option> Deputado Irapuan Pinheiro </option>
+          <option> Ererê </option>
+          <option> Eusébio </option>
+          <option> Farias Brito </option>
+          <option> Forquilha </option>
+          <option> Fortaleza </option>
+          <option> Fortim </option>
+          <option> Frecheirinha </option>
+          <option> General Sampaio </option>
+          <option> Graça </option>
+          <option> Granja </option>
+          <option> Granjeiro </option>
+          <option> Groaíras </option>
+          <option> Guaiúba </option>
+          <option> Guaraciaba do Norte </option>
+          <option> Guaramiranga </option>
+          <option> Hidrolândia </option>
+          <option> Horizonte </option>
+          <option> Ibaretama </option>
+          <option> Ibiapina </option>
+          <option> Ibicuitinga </option>
+          <option> Icapuí </option>
+          <option> Icó </option>
+          <option> Iguatu </option>
+          <option> Independência </option>
+          <option> Ipaporanga </option>
+          <option> Ipaumirim </option>
+          <option> Ipu </option>
+          <option> Ipueiras </option>
+          <option> Iracema </option>
+          <option> Irauçuba </option>
+          <option> Itaiçaba </option>
+          <option> Itaitinga </option>
+          <option> Itapagé </option>
+          <option> Itapipoca </option>
+          <option> Itapiúna </option>
+          <option> Itarema </option>
+          <option> Itatira </option>
+          <option> Jaguaretama </option>
+          <option> Jaguaribara </option>
+          <option> Jaguaribe </option>
+          <option> Jaguaruana </option>
+          <option> Jardim </option>
+          <option> Jati </option>
+          <option> Jijoca de Jericoaroara </option>
+          <option> Juazeiro do Norte </option>
+          <option> Jucás </option>
+          <option> Lavras da Mangabeira </option>
+          <option> Limoeiro do Norte </option>
+          <option> Madalena </option>
+          <option> Maracanaú </option>
+          <option> Maranguape </option>
+          <option> Marco </option>
+          <option> Martinópole </option>
+          <option> Massapê </option>
+          <option> Mauriti </option>
+          <option> Meruoca </option>
+          <option> Milagres </option>
+          <option> Milhã </option>
+          <option> Miraíma </option>
+          <option> Missão Velha </option>
+          <option> Mombaça </option>
+          <option> Monsenhor Tabosa </option>
+          <option> Morada Nova </option>
+          <option> Moraújo </option>
+          <option> Morrinhos </option>
+          <option> Mucambo </option>
+          <option> Mulungu </option>
+          <option> Nova Olinda </option>
+          <option> Nova Russas </option>
+          <option> Novo Oriente </option>
+          <option> Ocara </option>
+          <option> Orós </option>
+          <option> Pacajus </option>
+          <option> Pacatuba </option>
+          <option> Pacoti </option>
+          <option> Pacujá </option>
+          <option> Palhano </option>
+          <option> Palmácia </option>
+          <option> Paracuru </option>
+          <option> Paraipaba </option>
+          <option> Parambu </option>
+          <option> Paramoti </option>
+          <option> Pedra Branca </option>
+          <option> Penaforte </option>
+          <option> Pentecoste </option>
+          <option> Pereiro </option>
+          <option> Pindoretama </option>
+          <option> Piquet Carneiro </option>
+          <option> Pires Ferreira </option>
+          <option> Poranga </option>
+          <option> Porteiras </option>
+          <option> Potengi </option>
+          <option> Potiretama </option>
+          <option> Quiterianópolis </option>
+          <option> Quixadá </option>
+          <option> Quixelô </option>
+          <option> Quixeramobim </option>
+          <option> Quixeré </option>
+          <option> Redenção </option>
+          <option> Reriutaba </option>
+          <option> Russas </option>
+          <option> Saboeiro </option>
+          <option> Salitre </option>
+          <option> Santa Quitéria </option>
+          <option> Santana do Acaraú </option>
+          <option> Santana do Cariri </option>
+          <option> São Benedito </option>
+          <option> São Gonçalo do Amarante </option>
+          <option> São João do Jaguaribe </option>
+          <option> São Luís do Curu </option>
+          <option> Senador Pompeu </option>
+          <option> Senador Sá </option>
+          <option> Sobral </option>
+          <option> Solonópole </option>
+          <option> Tabuleiro do Norte </option>
+          <option> Tamboril </option>
+          <option> Tarrafas </option>
+          <option> Tauá </option>
+          <option> Tejuçuoca </option>
+          <option> Tianguá </option>
+          <option> Trairi </option>
+          <option> Tururu </option>
+          <option> Ubajara </option>
+          <option> Umari </option>
+          <option> Umirim </option>
+          <option> Uruburetama </option>
+          <option> Uruoca </option>
+          <option> Varjota </option>
+          <option> Várzea Alegre </option>
+          <option> Viçosa do Ceará </option>
+        </select>
+                </div>
+                <div class="col">
+                    CEP: <input type="text" class="form-control" placeholder="CEP">
+                </div>
+                <div class="col">
+                    Telefone (Emprego): <input type="text" class="form-control" placeholder="Telefone">
+                </div>
+            </div> <br>
+
+            <!--Quarta linha -->
+            <div class="row">
+                <div class="col">
+                    Profissão: <input type="text" class="form-control" placeholder="Profissão">
+                </div>
+                <div class="col">
+                    Situação:
+
+                    <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!--Fim da grid-->
+    <br> <br>
+
+    <!--Paginação-->
+    <nav aria-label="Navegação de página exemplo" id="paginação">
+        <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

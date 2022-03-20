@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Alunos</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:\Escola\Qualitativa\Códigos\CSS\MeuCSS.css" />
+    <link rel=icon type="imagem/png" href="D:\Escola\Qualitativa\Imagens\logo.png">
+</head>
+
+<body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <h5> Projeto PDT </h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\index.html">Ficha Biográfica<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">Composição Familiar<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">Saúde/Alimentação<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Rotina
+          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">Vida Escolar</a>
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">Atividades no tempo livre</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--Fim da barra de navegação-->
+    <br>
+
+    <center>
+        <h4>Composição Familiar</h4>
+        <h6>(Informar com quem o aluno mora: pais, avós, tios, padrinhos, irmãos, etc.)</h6>
+    </center> <br>
+
+    <!--Início da tabela-->
+    <table class="table table-sm ; table table-borderless" id="tabela">
+        <form>
+            <thead>
+                <tr>
+                    <th scope="col">Parentesco</th>
+                    <th scope="col">Idade</th>
+                    <th scope="col">Habilitação Escolar</th>
+                    <th scope="col">Profissão</th>
+                    <th scope="col">Situação Profissional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" class="form-control" placeholder="Nome"> </td>
+                    <td> <input type="number" class="form-control" placeholder="Idade"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <input type="text" class="form-control" placeholder="Digite aqui"> </td>
+                    <td> <select name="situacao" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Efetivo</option>
+                    <option value="2">Contratado</option>
+                    <option value="3">Aposentado</option>
+                    <option value="4">Doméstico</option>
+                    <option value="5">Desempregado</option>
+                    <option value="6">Estudante</option>
+                    </select> </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+    <!--Fim da tabela--><br> <br>
+
+    <!--Paginação-->
+    <nav aria-label="Navegação de página exemplo" id="paginação">
+        <ul class="pagination justify-content-end">
+            <li class="page-item">
+                <a class="page-link" href="D:\Escola\Qualitativa\Códigos\index.html" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

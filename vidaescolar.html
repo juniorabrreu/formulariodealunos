@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Alunos</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:\Escola\Qualitativa\Códigos\CSS\MeuCSS.css" />
+    <link rel=icon type="imagem/png" href="D:\Escola\Qualitativa\Imagens\logo.png">
+</head>
+
+<body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <h5> Projeto PDT </h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\index.html">Ficha Biográfica<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">Composição Familiar<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">Saúde/Alimentação<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Rotina
+          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">Vida Escolar</a>
+                        <a class="dropdown-item" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">Atividades no tempo livre</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--Fim da barra de navegação-->
+    <br>
+
+    <center>
+        <h4>Vida Escolar</h4>
+    </center> <br>
+
+    <!--Início da tabela-->
+    <form>
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">Disciplinas</th>
+                    <th scope="col">L. Portuguesa</th>
+                    <th scope="col">L. Inglesa</th>
+                    <th scope="col">L. Espanhola</th>
+                    <th scope="col">Arte</th>
+                    <th scope="col">Ed. Física</th>
+                    <th scope="col">História</th>
+                    <th scope="col">Geografia</th>
+                    <th scope="col">Matemática</th>
+                    <th scope="col">Física</th>
+                    <th scope="col">Química</th>
+                    <th scope="col">Biologia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Média final do ano anterior</th>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                </tr>
+                <tr>
+                    <th scope="row">Média de recuperação</th>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                    <td> <input type="text" class="form-control"> </td>
+                </tr>
+            </tbody>
+        </table> <br>
+    </form>
+    <!--Fim da tabela-->
+
+    <div class="container">
+        <form>
+            <h6> Apoio pedag. extra-aula: </h6> <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao1">
+                <label class="form-check-label" for="inlineCheckbox1">Português</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao2">
+                <label class="form-check-label" for="inlineCheckbox1">Inglês</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao3">
+                <label class="form-check-label" for="inlineCheckbox1">Espanhol</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao4">
+                <label class="form-check-label" for="inlineCheckbox1">Arte</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao5">
+                <label class="form-check-label" for="inlineCheckbox1">Ed. Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao6">
+                <label class="form-check-label" for="inlineCheckbox1">História</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao7">
+                <label class="form-check-label" for="inlineCheckbox1">Geografia</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao8">
+                <label class="form-check-label" for="inlineCheckbox1">Matemática</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao9">
+                <label class="form-check-label" for="inlineCheckbox1">Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao10">
+                <label class="form-check-label" for="inlineCheckbox1">Química</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao11">
+                <label class="form-check-label" for="inlineCheckbox1">Biologia</label>
+            </div> <br> <br>
+        </form>
+        <!--Fim da primeira linha-->
+
+        <form>
+            <h6> Preferidas: </h6> <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao1">
+                <label class="form-check-label" for="inlineCheckbox1">Português</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao2">
+                <label class="form-check-label" for="inlineCheckbox1">Inglês</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao3">
+                <label class="form-check-label" for="inlineCheckbox1">Espanhol</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao4">
+                <label class="form-check-label" for="inlineCheckbox1">Arte</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao5">
+                <label class="form-check-label" for="inlineCheckbox1">Ed. Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao6">
+                <label class="form-check-label" for="inlineCheckbox1">História</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao7">
+                <label class="form-check-label" for="inlineCheckbox1">Geografia</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao8">
+                <label class="form-check-label" for="inlineCheckbox1">Matemática</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao9">
+                <label class="form-check-label" for="inlineCheckbox1">Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao10">
+                <label class="form-check-label" for="inlineCheckbox1">Química</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao11">
+                <label class="form-check-label" for="inlineCheckbox1">Biologia</label>
+            </div> <br> <br>
+        </form>
+        <!--Fim da segunda linha-->
+
+        <form>
+            <h6> Com mais dificuldades: </h6> <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao1">
+                <label class="form-check-label" for="inlineCheckbox1">Português</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao2">
+                <label class="form-check-label" for="inlineCheckbox1">Inglês</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao3">
+                <label class="form-check-label" for="inlineCheckbox1">Espanhol</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao4">
+                <label class="form-check-label" for="inlineCheckbox1">Arte</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao5">
+                <label class="form-check-label" for="inlineCheckbox1">Ed. Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao6">
+                <label class="form-check-label" for="inlineCheckbox1">História</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao7">
+                <label class="form-check-label" for="inlineCheckbox1">Geografia</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao8">
+                <label class="form-check-label" for="inlineCheckbox1">Matemática</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao9">
+                <label class="form-check-label" for="inlineCheckbox1">Física</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao10">
+                <label class="form-check-label" for="inlineCheckbox1">Química</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="opcao11">
+                <label class="form-check-label" for="inlineCheckbox1">Biologia</label>
+            </div> <br> <br> <br> <br> <br>
+        </form>
+    </div>
+    <!--Fim da terceira linha-->
+
+    <!--Início da grid-->
+    <form>
+        <div class="container">
+            <!--Linha Principal-->
+            <div class="row">
+                <!--Coluna 1-->
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            Cursou a educação infantil?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quanto tempo?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Segunda linha-->
+                    <div class="row">
+                        <div class="col">
+                            Estudou em escola particular?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quanto tempo?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Terceira linha-->
+                    <div class="row">
+                        <div class="col">
+                            Participa(ou) de outras atividades?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quais?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Quarta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Repetiu algum ano?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Qual/Quais?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Quinta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Estuda todos os dias em casa?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quanto tempo? (Aproximadamente)">
+                        </div>
+                    </div> <br> <br>
+                    <!--Sexta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Dispõe de local adequado para estudo?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Onde?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Sétima linha-->
+                    <div class="row">
+                        <div class="col">
+                            Dispensado (prática de Ed. Física)?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Por quê?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Oitava linha-->
+                    <div class="row">
+                        <div class="col">
+                            Acompanhamento especializado?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Qual?">
+                        </div>
+                    </div> <br>
+                </div>
+                <!--Fim da coluna 1-->
+
+                <!--Coluna 2-->
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            Alguém se interessa pelo teu estudo?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quem?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Segunda linha-->
+                    <div class="row">
+                        <div class="col">
+                            Alguém o ajuda a estudar?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Quem?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Terceira linha-->
+                    <div class="row">
+                        <div class="col">
+                            Frequenta a escola por que quer?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Motivo?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Quarta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Frequenta o curso pretendido?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Pretendido?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Quinta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Gosta de estudar nesta escola?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Motivo?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Sexta linha-->
+                    <div class="row">
+                        <div class="col">
+                            Recebe apoio pedagógico?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Qual?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Sétima linha-->
+                    <div class="row">
+                        <div class="col">
+                            Recebe benefício do governo?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Qual?">
+                        </div>
+                    </div> <br> <br>
+                    <!--Oitava linha-->
+                    <div class="row">
+                        <div class="col">
+                            Estudou nesta escola no ano anterior?
+                        </div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="opcao1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+              Sim
+            </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="opcao2">
+                                <label class="form-check-label" for="exampleRadios2">
+              Não
+            </label>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                        </div>
+                    </div> <br>
+                </div>
+                <!--Fim da coluna 2-->
+            </div>
+            <!--Fim da linha principal-->
+        </div>
+    </form>
+    <!--Fim da grid--><br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                DÊ IDÉIAS/SUGESTÕES PARA A ESCOLA E/OU PARA OS PROFESSORES: <input type="text" class="form-control" placeholder="Digite aqui">
+            </div>
+        </div> <br>
+        <div class="row">
+            <div class="col">
+                Deslocamento (Casa para a Escola):
+                <select name="deslocamento" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Pé</option>
+                    <option value="2">Ônibus</option>
+                    <option value="3">Carro</option>
+                    <option value="4">Moto</option>
+                    <option value="5">Trem</option>
+                    <option value="6">Bicicleta</option>
+                    </select>
+            </div>
+            <div class="col">
+                Distância: <input type="text" class="form-control" placeholder="Digite aqui">
+            </div>
+            <div class="col">
+                Tempo: <input type="text" class="form-control" placeholder="Digite aqui">
+            </div>
+        </div> <br>
+        <!--Segunda Linha-->
+        <div class="row">
+            <div class="col">
+                Deslocamento (Escola para Casa):
+                <select name="deslocamento" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option value="1">Pé</option>
+                    <option value="2">Ônibus</option>
+                    <option value="3">Carro</option>
+                    <option value="4">Moto</option>
+                    <option value="5">Trem</option>
+                    <option value="6">Bicicleta</option>
+                    </select>
+            </div>
+            <div class="col">
+                Distância: <input type="text" class="form-control" placeholder="Digite aqui">
+            </div>
+            <div class="col">
+                Tempo: <input type="text" class="form-control" placeholder="Digite aqui">
+            </div>
+        </div>
+    </div> <br> <br>
+
+    <!--Paginação-->
+    <nav aria-label="Navegação de página exemplo" id="paginação">
+        <ul class="pagination justify-content-end">
+            <li class="page-item">
+                <a class="page-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\composiçãofamiliar.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\saudealimentacao.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\vidaescolar.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">5</a></li>
+            <li class="page-item">
+                <a class="page-link" href="D:\Escola\Qualitativa\Códigos\tempolivre.html">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
