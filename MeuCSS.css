@@ -1,0 +1,10 @@
+#paginação {
+    position: relative;
+    left: -10%;
+}
+
+#tabela {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
